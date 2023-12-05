@@ -32,7 +32,7 @@
       galleryElement.innerHTML = ""; // Clear previous image
 
       const imgElement = document.createElement("img");
-      imgElement.src = imageFilenames[currentImageIndex];
+      imgElement.src = "images/" + imageFilenames[currentImageIndex];
       galleryElement.appendChild(imgElement);
     };
 
